@@ -31,12 +31,12 @@
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
       gap: 15px;
     }
     iframe {
       width: 100%;
-      height: 250px;
+      height: 220px;
       border: none;
       border-radius: 10px;
     }
@@ -60,44 +60,113 @@
 </head>
 <body>
 
-  <h1>📰 Multiview Noticias LATAM</h1>
+  <h1>🗞️ Multiview Noticias LATAM</h1>
   <button class="boton-abrir-todo" onclick="abrirTodos()">🖥️ Abrir todos los canales en ventanas</button>
 
   <div class="grid">
 
+    <!-- ARGENTINA -->
     <div class="card">
       <p>🇦🇷 TN</p>
       <iframe src="https://www.youtube.com/embed/live_stream?channel=UCj6PcyLvpnIRT_2W_mwa9Aw" allowfullscreen></iframe>
     </div>
-
     <div class="card">
       <p>🇦🇷 C5N</p>
       <iframe src="https://www.youtube.com/embed/live_stream?channel=UCFgk2Q2mVO1BklRQhSv6p0w" allowfullscreen></iframe>
     </div>
+    <div class="card">
+      <p>🇦🇷 La Nación+</p>
+      <a class="externo" href="https://www.youtube.com/@LaNacionMas/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇦🇷 Crónica TV</p>
+      <a class="externo" href="https://www.youtube.com/@CRONICATV/live" target="_blank">Ver en vivo</a>
+    </div>
 
+    <!-- PARAGUAY -->
+    <div class="card">
+      <p>🇵🇾 Noticias PY</p>
+      <a class="externo" href="https://www.youtube.com/@NoticiasPY/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇵🇾 C9N</p>
+      <a class="externo" href="https://www.youtube.com/@C9NParaguay/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇵🇾 Unicanal</p>
+      <a class="externo" href="https://www.youtube.com/@Unicanal/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇵🇾 SNT</p>
+      <a class="externo" href="https://www.youtube.com/@SNTParaguay/live" target="_blank">Ver en vivo</a>
+    </div>
+
+    <!-- CHILE -->
     <div class="card">
       <p>🇨🇱 24 Horas (TVN)</p>
       <a class="externo" href="https://www.youtube.com/@24HorasTVN/live" target="_blank">Ver en vivo</a>
     </div>
-
     <div class="card">
-      <p>🇵🇾 C9N Paraguay</p>
-      <a class="externo" href="https://www.youtube.com/@C9NParaguay/live" target="_blank">Ver en vivo</a>
+      <p>🇨🇱 Mega Noticias</p>
+      <a class="externo" href="https://www.youtube.com/@MEGANOTICIASCL/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇨🇱 T13 Canal 13</p>
+      <a class="externo" href="https://www.youtube.com/@T13/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇨🇱 CHV Noticias</p>
+      <a class="externo" href="https://www.youtube.com/@chvnoticias/live" target="_blank">Ver en vivo</a>
     </div>
 
+    <!-- URUGUAY -->
     <div class="card">
-      <p>🇺🇾 Canal 10 Uruguay</p>
+      <p>🇺🇾 Canal 10</p>
       <a class="externo" href="https://www.youtube.com/@Canal10Uruguay/live" target="_blank">Ver en vivo</a>
     </div>
+    <div class="card">
+      <p>🇺🇾 Teledoce</p>
+      <a class="externo" href="https://www.youtube.com/@TeledoceUy/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇺🇾 Canal 4</p>
+      <a class="externo" href="https://www.youtube.com/@Canal4UY/live" target="_blank">Ver en vivo</a>
+    </div>
 
+    <!-- BRASIL -->
     <div class="card">
       <p>🇧🇷 CNN Brasil</p>
       <a class="externo" href="https://www.youtube.com/@CNNBrasil/live" target="_blank">Ver en vivo</a>
     </div>
+    <div class="card">
+      <p>🇧🇷 Band Jornalismo</p>
+      <a class="externo" href="https://www.youtube.com/@BandJornalismo/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇧🇷 Record News</p>
+      <a class="externo" href="https://www.youtube.com/@RecordNews/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🇧🇷 Jovem Pan News</p>
+      <a class="externo" href="https://www.youtube.com/@JovemPanNews/live" target="_blank">Ver en vivo</a>
+    </div>
 
+    <!-- INTERNACIONALES -->
     <div class="card">
       <p>🌍 France 24 Español</p>
       <a class="externo" href="https://www.youtube.com/@FRANCE24Esp/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🌍 CNN en Español</p>
+      <a class="externo" href="https://www.youtube.com/@CNNEE/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🌍 DW Español</p>
+      <a class="externo" href="https://www.youtube.com/@DWEspanol/live" target="_blank">Ver en vivo</a>
+    </div>
+    <div class="card">
+      <p>🌍 BBC Mundo</p>
+      <a class="externo" href="https://www.youtube.com/@BBCNewsMundo/videos" target="_blank">Ver videos</a>
     </div>
 
   </div>
@@ -107,11 +176,27 @@
       const urls = [
         "https://www.youtube.com/@TodoNoticias/live",
         "https://www.youtube.com/@C5N/live",
-        "https://www.youtube.com/@24HorasTVN/live",
+        "https://www.youtube.com/@LaNacionMas/live",
+        "https://www.youtube.com/@CRONICATV/live",
+        "https://www.youtube.com/@NoticiasPY/live",
         "https://www.youtube.com/@C9NParaguay/live",
+        "https://www.youtube.com/@Unicanal/live",
+        "https://www.youtube.com/@SNTParaguay/live",
+        "https://www.youtube.com/@24HorasTVN/live",
+        "https://www.youtube.com/@MEGANOTICIASCL/live",
+        "https://www.youtube.com/@T13/live",
+        "https://www.youtube.com/@chvnoticias/live",
         "https://www.youtube.com/@Canal10Uruguay/live",
+        "https://www.youtube.com/@TeledoceUy/live",
+        "https://www.youtube.com/@Canal4UY/live",
         "https://www.youtube.com/@CNNBrasil/live",
-        "https://www.youtube.com/@FRANCE24Esp/live"
+        "https://www.youtube.com/@BandJornalismo/live",
+        "https://www.youtube.com/@RecordNews/live",
+        "https://www.youtube.com/@JovemPanNews/live",
+        "https://www.youtube.com/@FRANCE24Esp/live",
+        "https://www.youtube.com/@CNNEE/live",
+        "https://www.youtube.com/@DWEspanol/live",
+        "https://www.youtube.com/@BBCNewsMundo/videos"
       ];
       urls.forEach(url => {
         window.open(url, '_blank', 'width=600,height=400');
@@ -121,4 +206,5 @@
 
 </body>
 </html>
+
 
