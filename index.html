@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiview Noticias LATAM</title>
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    .pais {
+      margin-top: 30px;
+      font-size: 22px;
+      color: #00c9a7;
+      border-bottom: 1px solid #333;
+      padding-bottom: 10px;
+    }
+    button {
+      padding: 10px 15px;
+      margin: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #00c9a7;
+      color: black;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #00e6be;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌎 Panel Multiview Noticias LATAM</h1>
+  <p>Hacé clic en los botones para abrir los canales en vivo en nuevas ventanas</p>
+
+  <!-- Argentina -->
+  <div class="pais">🇦🇷 Argentina</div>
+  <button onclick="abrir('https://www.youtube.com/@TodoNoticias/live')">TN</button>
+  <button onclick="abrir('https://www.youtube.com/@C5N/live')">C5N</button>
+  <button onclick="abrir('https://www.youtube.com/@LaNacionMas/live')">LN+</button>
+  <button onclick="abrir('https://www.youtube.com/@CRONICATV/live')">Crónica</button>
+
+  <!-- Paraguay -->
+  <div class="pais">🇵🇾 Paraguay</div>
+  <button onclick="abrir('https://www.youtube.com/@NoticiasPY/live')">Noticias PY</button>
+  <button onclick="abrir('https://www.youtube.com/@C9NParaguay/live')">C9N Paraguay</button>
+  <button onclick="abrir('https://www.youtube.com/@Unicanal/live')">Unicanal</button>
+  <button onclick="abrir('https://www.youtube.com/@SNTParaguay/live')">SNT</button>
+
+  <!-- Chile -->
+  <div class="pais">🇨🇱 Chile</div>
+  <button onclick="abrir('https://www.youtube.com/@24HorasTVN/live')">24 Horas (TVN)</button>
+  <button onclick="abrir('https://www.youtube.com/@MEGANOTICIASCL/live')">Mega Noticias</button>
+  <button onclick="abrir('https://www.youtube.com/@T13/live')">Canal 13 - T13</button>
+  <button onclick="abrir('https://www.youtube.com/@chvnoticias/live')">CHV Noticias</button>
+
+  <!-- Uruguay -->
+  <div class="pais">🇺🇾 Uruguay</div>
+  <button onclick="abrir('https://www.youtube.com/@Canal10Uruguay/live')">Canal 10</button>
+  <button onclick="abrir('https://www.youtube.com/@TeledoceUy/live')">Teledoce</button>
+  <button onclick="abrir('https://www.youtube.com/@Canal4UY/live')">Canal 4</button>
+
+  <!-- Brasil -->
+  <div class="pais">🇧🇷 Brasil</div>
+  <button onclick="abrir('https://www.youtube.com/@CNNBrasil/live')">CNN Brasil</button>
+  <button onclick="abrir('https://www.youtube.com/@BandJornalismo/live')">Band Jornalismo</button>
+  <button onclick="abrir('https://www.youtube.com/@RecordNews/live')">Record News</button>
+  <button onclick="abrir('https://www.youtube.com/@JovemPanNews/live')">Jovem Pan News</button>
+
+  <script>
+    function abrir(url) {
+      window.open(url, '_blank', 'width=600,height=400');
+    }
+  </script>
+</body>
+</html>
